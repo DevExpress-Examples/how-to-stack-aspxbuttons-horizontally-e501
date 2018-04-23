@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8211148E-9AB4-4DCA-BF44-496569853D3D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace></RootNamespace>
+    <AssemblyName>SideBySide</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v7.3, Version=7.3.3.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>D:\Projects\Test_Examples\DLLs\7.3.3\DevExpress.Data.v7.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxEditors.v7.3, Version=7.3.3.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>D:\Projects\Test_Examples\DLLs\7.3.3\DevExpress.Web.ASPxEditors.v7.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Web.v7.3, Version=7.3.3.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>D:\Projects\Test_Examples\DLLs\7.3.3\DevExpress.Web.v7.3.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Themes\BlackGlass\Editors\edtButtonBack.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtButtonBackC_16.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtButtonBackDis.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtButtonBackDis_16.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtButtonBackH_16.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtButtonBack_16.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtButtonCheckedBack.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtButtonEditBack.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtButtonEditBackC.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtButtonEditBackH.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtButtonEditButtonBack.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtButtonHoverBack.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtButtonPressedBack.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtCalendarFNNextYear.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtCalendarFNPrevYear.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtCalendarFootBtn.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtCalendarFootBtnH.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtCalendarFootBtnP.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtCalendarHeader.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtCalendarNextMonth.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtCalendarNextMonthDisabled.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtCalendarNextYear.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtCalendarNextYearDisabled.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtCalendarPrevMonth.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtCalendarPrevMonthDisabled.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtCalendarPrevYear.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtCalendarPrevYearDisabled.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtCheckBoxOff.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtCheckBoxOn.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtCheckBoxUndefined.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtDropDown.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtDropDownDisabled.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtEllipsis.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtEllipsisDisabled.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtError.png" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtRadioButtonOff.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtRadioButtonOn.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtSpinDecBtnBack.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtSpinEditDecrementImage.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtSpinEditDecrementImageDisabled.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtSpinEditIncrementImage.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtSpinEditIncrementImageDisabled.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtSpinEditLargeDecImage.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtSpinEditLargeDecImageDisabled.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtSpinEditLargeIncImage.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtSpinEditLargeIncImageDisabled.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtSpinIncBtnBack.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtSpinIncBtnHBack.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtSpinIncBtnPBack.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtSpinLargeIncBtnBack.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtSpinLargeIncBtnHBack.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtSpinLargeIncBtnPBack.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\Error.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\Loading.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\styles.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default.aspx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v8.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1896</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl></IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
