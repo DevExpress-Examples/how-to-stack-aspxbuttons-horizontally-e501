@@ -2,7 +2,7 @@
 *Files to look at*:
 
 * [Default.aspx](./CS/SideBySide/Default.aspx) (VB: [Default.aspx](./VB/SideBySide/Default.aspx))
-* [Default.aspx.cs](./CS/SideBySide/Default.aspx.cs) (VB: [Default.aspx](./VB/SideBySide/Default.aspx))
+* [Default.aspx.cs](./CS/SideBySide/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/SideBySide/Default.aspx.vb))
 <!-- default file list end -->
 # How to stack ASPxButtons horizontally
 
