@@ -5,6 +5,9 @@
 * [Default.aspx.cs](./CS/SideBySide/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/SideBySide/Default.aspx.vb))
 <!-- default file list end -->
 # How to stack ASPxButtons horizontally
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e501/)**
+<!-- run online end -->
 
 
 <p>The ASPxButton is rendered as a HTML table to support extended visual appearances such as borders, highlighting, gradients, etc. Two HTML tables cannot be placed side-by-side without using an auxiliary table. This example demonstrates two solutions for stacking buttons horizontally:<br />
